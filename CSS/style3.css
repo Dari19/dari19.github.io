@@ -1,0 +1,425 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Manrope:wght@523&family=Roboto:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+section{
+    width: 100%;
+    height:95vh;
+    background-image: url(img/Velence.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+        
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family:'Roboto', sans-serif;
+    color: #505050;
+    font-size: 16px;
+    font font-weight: 700;    
+}
+.logo{
+    font-family:'Bungee', cursive;
+    color: #000000;
+    font-size: 22px
+    
+}
+.active{
+    font-weight: 900;
+    color: #2d2a2a;
+}
+.szoveg-container p:nth-child(1){
+    font-family:'Manrope', sans-serif;
+    font-weight: 700;
+    color:#cacaca;
+    font-size: 22px;
+    line-height: 30px;
+
+}
+.szoveg-container p:nth-child(2){
+    font-family:'Manrope', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color:#ffffff;
+    font-size: 60px;
+
+    text-transform: uppercase;
+}
+.szoveg-container p:nth-child(3){
+    font-family:'Manrope', sans-serif;
+    color:#f4f4f4;
+    font-size: 30px;
+    line-height:35px;
+    padding-bottom: 20px;
+}
+.szoveg-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.szoveg-container{
+    position: absolute;
+    left:13%;
+    top:42%;
+    transform: translate(-13%,-42%)
+}
+
+
+.szoveg-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family:'Manrope', sans-serif;
+    font-weight: bold;
+    font font-size: 15px;
+    outline: none;
+    margin: 0px 20px;
+}
+.megbiz-btn{
+    background-color: #ffffff;
+    border: none;
+    color: #373636;
+    
+}
+.megbiz-btn:active{
+    transform: scale(1.08);
+}
+.onrajz-btn:active{
+    transform: scale(1.08);
+}
+.onrajz-btn{
+    background-color: #0b0b0b;
+    color:#FFFFFF;
+    border: none;
+}
+
+.shadow{
+    position: absolute;
+    width: 800px;
+    height: 250px;
+    left:0px;
+    top:42%;
+    transform: translate(-13%,-42%);
+    padding-bottom: 20px;
+    
+    
+}
+.rolam-container{
+    position: relative;
+    width: 70%;
+    height: 380px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -5% auto 20px auto;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px
+}
+.rolam-container img{
+    height: 250px;
+    border-radius: 50%;
+    margin: 10px
+}
+.rolam-szoveg{
+    width: 550px;
+    margin: 15px
+}
+.rolam-szoveg p:nth-child(1)
+{
+    color:#403e3e;
+    font-family:'Manrope', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 0px;
+    
+}
+.rolam-szoveg p:nth-child(2)
+{
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family:'Manrope', sans-serif;
+    font-weight: 700;
+    line-height: 5px;
+    
+    
+}
+.rolam-szoveg p:nth-child(3),
+.rolam-szoveg p:nth-child(4)
+{
+    color: #7e7d7d;
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;  
+}
+.rolam-szoveg button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-family:'Manrope', sans-serif;
+    color: #FFFFFF;
+    background-color: #262525;   
+    margin: 0px 20px 0px 0px;
+}
+.rolam-szoveg button:active{
+    transform: scale(1.02);
+}
+.kapcsolat{
+    height: 600px;
+    background-color: #FFFFFF;
+    padding: 2% 10% 0 10%;
+
+    
+}
+.kapcs-szoveg p:nth-child(1){
+            color:#3e3d3d;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0px;
+}
+.kapcs-szoveg p:nth-child(2){
+     font-family:'Open Sans', sans-serif;
+    color: #7e7d7d;
+    font-size: 14px;
+}
+.kapcs-szoveg{
+    width: 500px;
+    margin: 50px 0px;
+}
+.box1,.box2,.box3{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-image: url(img/Telefon.png);
+}
+.box2{
+    background-image: url(img/Email.png);
+}
+.box3{
+    background-image: url(img/Insta.png);
+}
+.box1 span,
+.box2 span,
+.box3 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Manrope', sans-serif;
+    font-weight: bold;
+    
+}
+.box1 p:nth-child(2),
+.box2 p:nth-child(2),
+.box3 p:nth-child(2){
+    color: #ffffff;
+        font-family:'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box1 p:nth-child(3),
+.box2 p:nth-child(3),
+.box3 p:nth-child(3){
+    color: #ffffff;
+        font-family:'Manrope', sans-serif;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+    color:#8f8f8f;
+    
+}
+footer{
+    height: 180px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+footer p{
+    font-family:'Open Sans', sans-serif;
+}
+footer p:nth-child(1){
+    font-family:'Bungee', cursive;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 16px;
+    color:#7e7d7d;;
+    line-height: 0px ;
+    
+}
+.social-media a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius:50%;
+}
+.social-media{
+    display: flex;
+    
+}
+.social-media i{
+    color: black;
+    
+}
+.social-media a:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.social-media a:hover i{
+    color:#FFFFFF;
+    transition: all ease 0.5s;
+    
+}
+@media(max-width:1000px){
+    *{
+        box-sizing: border-box;
+        
+    }
+    .rolam-container{
+        width: 90%;
+        border border-radius: 5px;
+    }
+    .shadow{
+
+    height: 270px;
+    }
+    .rolam-container img{
+        height: 180px;
+    }
+    .rolam-szoveg{
+
+    }
+    .rolam-szoveg p:nth-child(1){
+        font-size: 20px;
+    }
+        
+    .rolam-szoveg p:nth-child(2){
+        font-size: 12px;
+    }
+    
+    .rolam-szoveg p:nth-child(3),
+    .rolam-szoveg p:nth-child(4){
+        font-size: 14px;
+    }
+    .kapcsolat{
+        padding: 2% 5% 0px 5%;
+    }
+    .box-container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .kapcsolat{
+        height: auto;
+    }
+    .box1,.box2,.box3{
+        flex-grow: 1;
+        margin: 10px;
+    }
+        
+    }
+@media(max-width:750px){
+    section{
+        background-image: none;
+        background-color: #f7f7f7;
+    }
+    .shadow{
+        display: none;
+    }
+    .szoveg-container p:nth-child(1){
+        color: #606060;
+    }
+    .szoveg-container p:nth-child(2){
+        color: #000000;
+        font-size: 38px;
+    }
+    .szoveg-container p:nth-child(3){
+        color:#363636;
+    }
+    .megbiz-btn{
+        border: 2px solid #373636
+    }
+    .szoveg-container{
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+    }
+    nav ul{
+        padding: 0px;
+        margin: 0px;
+        justify-items: auto;
+    }
+nav ul li a{
+    margin: 15px;
+    }
+    .rolam-container{
+        top: 0px;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        padding: 30px 0px;
+        align-items: center;
+        
+    }
+    .rolam-szoveg{
+        width: 90%;
+        text-align: center;
+    }
+    .kapcs-szoveg{
+        width: 100%;
+    }
+}
